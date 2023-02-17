@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - Print last digit of a radonmly generated number
  * determin if it's greater than 5,
