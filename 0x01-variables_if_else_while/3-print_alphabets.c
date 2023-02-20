@@ -1,11 +1,24 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
-int main ()
+/**
+ * main - prints the alphabet in lowercase, and then in uppercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-	char = 'A';
+	int ch;
 
-	for (int i=1; i<27; i++)
-
-		count <<char (a++) <<endl;
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	for (ch = 'A'; ch <= 'Z'; ch++)
+	{
+		putchar(ch);
+	}
+	{
+		putchar('\n');
+	}
+	return (0);
 }
